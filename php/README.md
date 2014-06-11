@@ -29,6 +29,12 @@ $ git clone https://github.com/ezsystems/ezcs.git
 $ ln -s path/to/ezcs/php/ezcs /usr/share/php/PHP/CodeSniffer/Standards/ezcs
 ```
 
+### Mac based systems
+On Mac systems, do it like for Debian users but change symlink : 
+```bash
+sudo ln -s ~/Sites/ezcs/php/ezcs /opt/local/lib/php/pear/PHP/CodeSniffer/Standards/ezcs
+```
+
 ## Usage
 
 Use phpcs' `--standard` option to use it, example:
